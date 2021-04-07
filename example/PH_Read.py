@@ -23,7 +23,7 @@ def read_ph():
     global ads1115
     global ph
     # Set the IIC address
-    ads1115.setAddr_ADS1115(0x48)
+    ads1115.setAddr_ADS1115(0x49)
     # Sets the gain and input voltage range.
     ads1115.setGain(ADS1115_REG_CONFIG_PGA_6_144V)
     # Get the Digital Value of Analog of selected channel

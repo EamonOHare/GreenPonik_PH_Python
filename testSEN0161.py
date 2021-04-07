@@ -1,7 +1,7 @@
 import time
 import sys
-sys.path.insert(0,'../libs/DFRobot_ADS1115/RaspberryPi/Python/')
-sys.path.insert(0,'../src/')
+sys.path.insert(0,'../GreenPonik_PH_Python/libs/DFRobot_ADS1115/RaspberryPi/Python/')
+sys.path.insert(0,'../GreenPonik_PH_Python/src/')
 
 
 from DFRobot_ADS1115 import ADS1115
